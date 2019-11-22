@@ -1,0 +1,37 @@
+body{
+    font: 'Raleway',sans-serif;
+    height: 100vh;
+    text-align: center;
+    letter-spacing: .5em;
+}
+
+.dontknow{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    align-items: center;
+    box-shadow: 5px 5px 5px;
+}
+
+.dot{
+    font-size: 32px;
+}
+
+@keyframes slide{
+    0% {
+        background-color: chocolate;
+        margin-left: 30%;     
+    }
+    50%{
+        margin-left: 30%;     
+        margin-top: 30%;
+    }
+    25%{
+        margin-left: 0%;     
+        margin-top: 30%;
+    }
+}
